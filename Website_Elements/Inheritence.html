@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritence</title>
+
+    <style>
+        body{
+            color: red;
+        }
+        .c1 a{
+             color:inherit;
+        }
+        .c2 a{
+            color: initial;
+        }
+        .c3 a{
+            color: unset;
+        }
+        .c4{
+            color: yellowgreen !important;
+        }
+        .box{
+            border: 2px solid black;
+            width: 500px;
+            height: 100px;
+            overflow: hidden;
+        }
+        .scroll{
+            border: 2px solid black;
+            width: 500px;
+            height: 100px;
+            overflow: scroll;
+        }
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Default<a href="">color</a>link</li>
+        <li class="c1">Inherited<a href="">color</a>link</li>
+        <li class="c2">Initial<a href="">color</a>link</li>
+        <li class="c3">Unset<a href="">color</a>link</li>
+        <li class="c4" style="color: yellow;">Important<a href="">color</a>link</li>
+    </ul>
+    <div class="box">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate harum distinctio voluptates, totam sed consectetur laboriosam in doloribus asperiores iure neque, a temporibus vitae reiciendis repudiandae assumenda quis dolor provident eligendi odio quia quod ut commodi? Illo blanditiis delectus magnam recusandae facere laboriosam doloribus consectetur assumenda praesentium repellendus sequi reiciendis error culpa voluptate ratione, et ullam! Pariatur natus quos provident veniam hic veritatis eius ratione placeat beatae ipsam deleniti et eveniet, unde, ad nam officiis voluptates dolor earum tempora praesentium architecto modi, exercitationem temporibus atque. Ad eius fugit perspiciatis debitis dolor. Eaque quisquam quia quas nostrum aut consequatur velit debitis.</div>
+    <p>This content is outside the box</p>
+    <div class="scroll">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate harum distinctio voluptates, totam sed consectetur laboriosam in doloribus asperiores iure neque, a temporibus vitae reiciendis repudiandae assumenda quis dolor provident eligendi odio quia quod ut commodi? Illo blanditiis delectus magnam recusandae facere laboriosam doloribus consectetur assumenda praesentium repellendus sequi reiciendis error culpa voluptate ratione, et ullam! Pariatur natus quos provident veniam hic veritatis eius ratione placeat beatae ipsam deleniti et eveniet, unde, ad nam officiis voluptates dolor earum tempora praesentium architecto modi, exercitationem temporibus atque. Ad eius fugit perspiciatis debitis dolor. Eaque quisquam quia quas nostrum aut consequatur velit debitis.</div>
+    
+</body>
+</html>

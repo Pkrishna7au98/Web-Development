@@ -1,0 +1,33 @@
+body span.special{
+    color: yellow;  background-color:red; padding:5px;
+}
+
+p,a{
+    color:rgb(68, 21, 240)
+}
+
+li{
+    list-style-type: square;
+}
+
+span.special , li.special{
+    color: red; font-weight: bold;
+}
+
+li em{
+    color: purple;
+}
+
+h1+p{
+    font: size 500%;
+}
+
+pseudo class selector
+
+a:hover{
+    text-decoration: none;
+} 
+
+.special{
+    color: saddlebrown; font-weight: bold;
+}
